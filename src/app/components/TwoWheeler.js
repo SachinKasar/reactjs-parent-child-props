@@ -5,8 +5,9 @@ import PropTypes from 'prop-types';
 // TwoWheel as a Class Component
 export class TwoWheeler extends React.Component {
 	constructor(props) {
-		super();
-	    this.price = props.price;
+       super(props);
+	   console.log(this.props.name);
+       // this.props.name = 'New name';
      }
 	
 	 
@@ -25,7 +26,7 @@ export class TwoWheeler extends React.Component {
 							</li>
 							
 							<li>
-								<b>Price :</b> {this.price}
+								<b>Price :</b> {this.props.price}
 							</li>
 							<li>
 							     <b>Visitor :</b>  {this.props.visitor}

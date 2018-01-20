@@ -14,22 +14,22 @@ class App extends React.Component {
         return ( 
 			<div className="container">
                 <div className="row col-xs-10 col-xs-offset-1 alert alert-success">
-				    <br/>   
+				    <br/> 
+                    <h1 style={{color:'black'}}> App </h1>
                     <div className="row">
                       <div className="col-xs-10 col-xs-offset-1" >
 							<TwoWheeler 
-							           name={"Enfield Classic"}  
-                                       specs={twoWheelSpecs} 
-								       price={0}   
-                                       visitor={"First Visitor"} 
-                                       
+                               name={"Enfield Classic"}  
+                               specs={twoWheelSpecs} 
+                               price={0}   
+                               visitor={"First Visitor"}           
                             >
-            
-                                <div><p style={{color:'purple'}}>This is Two Weeeler child component</p><br/></div>
-            
+                                  <div><p style={{color:'purple'}}>
+                                    This is Two Weeeler child component</p><br/>
+                                  </div>
                             </TwoWheeler>
 						</div>
-					</div> <br/>
+					</div><br/>
             
 				   <div className="row">
                       <div className="col-xs-10 col-xs-offset-1" >

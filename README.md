@@ -11,6 +11,11 @@ reactjs-parent-child-props
 4. Aparrt from props, how to pass children to child e.g. <TwoWheeler> children here </TwoWheeler>
 
  
+Importnant facts :
+- Props can get initial value from parent Component
+- Props can be changed by parent Component
+- Props can set default values inside Component - "defaultProps"	
+- Props can "NOT" change inside Component - Console Error	
 
 
 
